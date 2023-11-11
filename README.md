@@ -2,7 +2,7 @@
 ## KCES-An Efficient and Secure Steganography Method
 
 ### Introduction
-This repository implements a steganography method that combines AES encryption with K-means clustering and LSB steganography. The method first encrypts the plaintext using AES encryption. Then, the image's pixels are clustered using the K-means clustering technique. Finally, cluster-wise steganography using LSB technique is performed to embed the encrypted plaintext into the clustered images.
+This repository implements a steganography method that combines AES encryption with K-means clustering and LSB steganography. The method first encrypts the plaintext using AES encryption. Then, the ECC encripts the AES key . Then, the image's pixels are clustered using the K-means clustering technique. Finally, cluster-wise steganography using LSB technique is performed to embed the encrypted plaintext into the clustered images. These stego-images along with ECC Encripted AES key is sent to the Receiver for decryption.
 
 ### Encryption
 1.	**AES and ECC encryption:**
